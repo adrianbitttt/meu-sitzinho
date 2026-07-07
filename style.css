@@ -1,0 +1,71 @@
+/* Reset básico e centralização */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1e1e24 0%, #2a2b36 100%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+
+/* Container do Card */
+.card-container {
+  padding: 20px;
+}
+
+.card {
+  background-color: #131417; /* Cor escura padrão CodePen */
+  border: 1px solid #3a3d46;
+  border-radius: 8px;
+  width: 320px;
+  padding: 24px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Tipografia e Elementos */
+h2 {
+  margin-top: 0;
+  color: #47cf73; /* Verde CodePen */
+  font-size: 1.5rem;
+}
+
+p {
+  color: #b7bbc8;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+button {
+  background-color: #47cf73;
+  color: #131417;
+  border: none;
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 15px;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background-color: #24b656;
+}
+
+.card-footer {
+  margin-top: 20px;
+  font-size: 0.8rem;
+  color: #767985;
+  text-align: center;
+  border-top: 1px solid #2a2b36;
+  padding-top: 15px;
+}
